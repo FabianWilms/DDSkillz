@@ -1,0 +1,42 @@
+{
+    "multiplequestions": [
+        {
+            "text": "Von Wem wurde UML standardisiert?",
+            "correctAnswers": [
+                "OMG",
+                "ISO"
+            ],
+            "falseAnswers": [
+                "WTF",
+                "FIFA",
+                "UFA",
+				"PETA"
+            ]
+        }
+    ],
+    "singlequestions": [
+        {
+            "text": "Wofür steht <UML>?",
+            "correctAnswer": "Unified Modelling Language",
+            "falseAnswers": [
+                "Unicorn Markup Language",
+                "Unlucky Maven Looser",
+                "Untouchable Mega Lobster"
+            ]
+        }
+    ],
+    "yesnoquestions": [
+        {
+            "text": "Macht UML Ihnen Spaß?",
+            "correctValue": false
+        }
+    ],
+    "valuequestions": [
+        {
+            "text": "Wann erschien UML?",
+            "lowerBound": 1950,
+            "upperBound": 2050,
+            "correctValue": 1990
+        }
+    ]
+}

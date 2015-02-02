@@ -1,0 +1,43 @@
+{
+    "multiplequestions": [
+        {
+            "text": "Welche der Folgenden japanischen Wörter sind Länder?",
+            "correctAnswers": [
+                "nihon",
+                "doitsu"
+            ],
+            "falseAnswers": [
+                "nihongo",
+                "nihonjin",
+                "doitsujin",
+				"taigo"
+            ]
+        }
+    ],
+    "singlequestions": [
+        {
+            "text": "kaisha wa <...> desu ka. pawaadenki desu?",
+            "correctAnswer": "nan",
+            "falseAnswers": [
+                "doko",
+                "donata",
+                "nan no"
+            ]
+        }
+    ],
+    "yesnoquestions": [
+        {
+            "text": "Hiragana und Kanji sind die einzigen japanischen Schriftarten.",
+            "correctValue": false
+        }
+    ],
+    "valuequestions": [
+        {
+            "text": "Welche Zahl ist sanbyakugojusan?",
+            "lowerBound": 0,
+            "upperBound": 500,
+            "correctValue": 353
+        }
+    ],
+    "valuerangequestions": []
+}

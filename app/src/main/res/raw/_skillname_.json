@@ -1,0 +1,74 @@
+{
+    "multiplequestions": [
+        {
+            "text": "Frage 1",
+            "correctAnswers": [
+                "a",
+                "b",
+                "c"
+            ],
+            "falseAnswers": [
+                "d",
+                "e",
+                "f"
+            ]
+        },
+        {
+            "text": "Frage 2",
+            "correctAnswers": [
+                "a",
+                "b",
+                "c"
+            ],
+            "falseAnswers": [
+                "d",
+                "e",
+                "f"
+            ]
+        }
+    ],
+    "singlequestions": [
+        {
+            "text": "Frage 1",
+            "correctAnswer": "a",
+            "falseAnswers": [
+                "d",
+                "e",
+                "f"
+            ]
+        },
+        {
+            "text": "Frage 2",
+            "correctAnswer": "b",
+            "falseAnswers": [
+                "d",
+                "e",
+                "f"
+            ]
+        }
+    ],
+    "yesnoquestions": [
+        {
+            "text": "Frage 1",
+            "correctValue": true
+        },
+        {
+            "text": "Frage 1",
+            "correctValue": false
+        }
+    ],
+    "valuequestions": [
+        {
+            "text": "Frage 1",
+            "lowerBound": 0,
+            "upperBound": 10,
+            "correctValue": 5
+        },
+        {
+            "text": "Frage 2",
+            "lowerBound": 0,
+            "upperBound": 12,
+            "correctValue": 6
+        }
+    ]
+}

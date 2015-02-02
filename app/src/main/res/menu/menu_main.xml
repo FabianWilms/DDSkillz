@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="gr05.swe1.hm.edu.ddskillz.activities.MainActivity">
+    <item
+        android:id="@+id/action_changeSort"
+        android:title="Sort By"
+        android:icon="@drawable/ic_action_content_sort"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+    />
+    <item
+        android:id="@+id/action_changeTheme"
+        android:title="Change Theme"
+        android:icon="@drawable/ic_action_change_theme"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_profile"
+        android:title="@string/action_showProfile"
+        android:orderInCategory="99"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_action_account_circle"/>
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/action_logout"
+        android:icon="@drawable/ic_action_log_out"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"/>
+</menu>

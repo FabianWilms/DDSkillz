@@ -1,0 +1,60 @@
+{
+    "multiplequestions": [
+        {
+            "text": "Was sind die Erzfeinde eines Informatikers?",
+            "correctAnswers": [
+                "Wasser",
+                "Luft",
+                "Das unglaublich laute Geschrei der Vögel am Morgen"
+            ],
+            "falseAnswers": [
+                "Exceptions",
+                "Menschen"
+            ]
+        }
+    ],
+    "singlequestions": [
+        {
+            "text": "Was ist die Lieblingsbeschäftigung von Bits?",
+            "correctAnswer": "Bus fahren",
+            "falseAnswers": [
+                "Taxi fahren",
+                "Rad fahren",
+                "Laufen"
+            ]
+        },
+        {
+            "text": "Was macht ein Informatiker, wenn sein Auto nicht mehr anspringt?",
+            "correctAnswer": "Tür auf, Tür zu, nochmal versuchen...",
+            "falseAnswers": [
+                "Taxi fahren",
+                "Rad fahren",
+                "Laufen"
+            ]
+        },
+         {
+             "text": "Was sagt ein Informatiker, wenn er zur Welt kommt?",
+             "correctAnswer": "Hallo Welt",
+             "falseAnswers": [
+                 "Gar nichts",
+                 "New Human created on Year %d!",
+                 "Schreibt man Hallo mit zwei 'l'?"
+             ]
+         }
+    ],
+    "yesnoquestions": [
+        {
+            "text": "Macht Informatik Ihnen Spaß?",
+            "correctValue": true
+        }
+    ],
+    "valuequestions": [
+        {
+            "text": "Wie viele Byte hat ein Kasten?",
+            "lowerBound": 0,
+            "upperBound": 10,
+            "correctValue": 2
+        }
+    ],
+    "valuerangequestions": []
+}

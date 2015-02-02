@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gr05.swe1.hm.edu.ddskillz.activities.quiz.ShakeFragment">
+
+    <TextView
+        android:id="@+id/shake_counter"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="0"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="?android:colorAccent"
+        android:textSize="200dp"
+        android:gravity="center"/>
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+{
+    "multiplequestions": [],
+    "singlequestions": [
+        {
+            "text": "Was bedeutet != ?",
+            "correctAnswer": "Ungleich",
+            "falseAnswers": [
+                "Gleich",
+                "Soll",
+                "In Etwa"
+            ]
+        },
+        {
+            "text": "Was ist die Endung einer kompilierten Java-Klasse",
+            "correctAnswer": ".class",
+            "falseAnswers": [
+                ".java",
+                ".javac",
+                ".exe"
+            ]
+        }
+    ],
+    "yesnoquestions": [
+        {
+            "text": "Ist Java cool?",
+            "correctValue": true
+        },
+        {
+            "text": "Kann man in Java eine Android App schreiben?",
+            "correctValue": true
+        },
+		{
+			"text": "Ist Java eine höhere Programmiersprache?"
+			"correctValue": true
+		}
+    ],
+    "valuequestions": [
+        {
+            "text": "Speicherbedarf in  Byte eines Integers",
+            "lowerBound": 1,
+            "upperBound": 32,
+            "correctValue": 4
+        },
+        {
+            "text": "Speicherbedarf in Byte eines Characters",
+            "lowerBound": 1,
+            "upperBound": 32,
+            "correctValue": 2
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DDSkillz</string>
+    <string name="title_activity_main">Skills</string>
+    <string name="action_showProfile">Profile</string>
+    <string name="action_logout">Logout</string>
+    <string name="act_main_button_startHelloWorld">Start Hello World</string>
+    <string name="act_main_button_startLogin">Start Login Activity</string>
+    <string name="act_main_button_startAct2">Start Quiz Activity</string>
+    <string name="act_main_button_startAct3">Start Activity 3</string>
+    <string name="act_main_button_startAct4">Start Activity 4</string>
+    <string name="act_main_popup_logout_message">Are you sure you want to log out?</string>
+    <string name="act_main_popup_logout_btnPos">Yes</string>
+    <string name="act_main_popup_logout_btnNeg">No</string>
+    <string name="act_login_title">Welcome</string>
+    <string name="act_login_input_username">Username</string>
+    <string name="act_login_input_password">Password</string>
+    <string name="act_login_button_login">Login</string>
+    <string name="act_login_button_register">Register</string>
+    <string name="act_login_error_noConnectionTitle">No Connection</string>
+    <string name="act_login_error_noConnectionMessage">You are currently not connected to the Internet.</string>
+    <string name="act_login_error_login">Wrong Username or Password.</string>
+    <string name="act_login_error_unRequired">A Username is required.</string>
+    <string name="act_login_error_pwRequired">A Password is required.</string>
+    <string name="act_login_error_emRequired">A E-Mail is required.</string>
+    <string name="act_login_error_unLengthRequired">A Username needs at least 3 Characters.</string>
+    <string name="act_login_info_succsesfull">Logged in succsessfully.</string>
+    <string name="act_login_info_unsuccsesfull">Login failed.</string>
+    <string name="act_login_toast_succsesfull">Your registration was succesfull!</string>
+    <string name="popup_registration_textview_register">Sign Up</string>
+    <string name="popup_registration_input_username">Username</string>
+    <string name="popup_registration_input_password">Password</string>
+    <string name="popup_registration_input_mail">E-Mail</string>
+    <string name="popup_registration_checkbox_login">Login after registration</string>
+    <string name="popup_registration_button_register">Register</string>
+    <string name="popup_registration_button_cancel">Cancel</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_profile_name">Name:</string>
+    <string name="activitiy_profile_namee">No name found.</string>
+    <string name="activity_profile_abbrevation_textview">Abbrevation:</string>
+    <string name="activity_profile_abbrevation">No abbrevation found.</string>
+    <string name="activity_profile_mail_textview">E-Mail:</string>
+    <string name="activity_profile_mail">No mail found.</string>
+    <string name="activity_profile_since_textview">Employee since:</string>
+    <string name="activity_profile_since">No date found.</string>
+    <string name="activity_profile_roles_textview">Roles:</string>
+    <string name="activity_profile_roles">No Roles found.</string>
+
+</resources>

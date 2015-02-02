@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LightTheme" parent="android:Theme.Material.Light">
+        <!-- Action Bar and Widget Styling -->
+        <item name="android:actionBarStyle">@style/DDTheme.ActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_actionbar_back</item>
+        <item name="android:actionOverflowButtonStyle">@style/LightThemeOverflowButton</item>
+        <item name="android:textViewStyle">@style/TextViewRoboto</item>
+        <item name="android:buttonStyle">@style/ButtonRoboto</item>
+        <!-- App-Colors -->
+        <item name="android:colorPrimary">@color/lighttheme_primary</item>
+        <item name="android:colorPrimaryDark">@color/lighttheme_primary_dark</item>
+        <item name="android:colorAccent">@color/lighttheme_accent</item>
+        <item name="android:navigationBarColor">@color/lighttheme_primary</item>
+    </style>
+
+    <style name="DarkTheme" parent="android:Theme.Material">
+        <!-- Action Bar and Widget Styling -->
+        <item name="android:actionBarStyle">@style/DDTheme.ActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_actionbar_back</item>
+        <item name="android:textViewStyle">@style/TextViewRoboto</item>
+        <item name="android:buttonStyle">@style/ButtonRoboto</item>
+
+        <!-- App-Colors -->
+        <item name="android:colorPrimary">@color/darktheme_primary</item>
+        <item name="android:colorPrimaryDark">@color/darktheme_primary_dark</item>
+        <item name="android:colorAccent">@color/darktheme_accent</item>
+        <item name="android:navigationBarColor">@color/darktheme_primary</item>
+    </style>
+
+    <style name="LightThemeOverflowButton" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow_menu</item>
+    </style>
+
+    <style name="DDTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/DDTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:background">?android:colorPrimary</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="DDTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">"sans-serif"</item>
+    </style>
+
+    <style name="TextViewRoboto" parent="android:Widget.Material.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="ButtonRoboto" parent="android:Widget.Material.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

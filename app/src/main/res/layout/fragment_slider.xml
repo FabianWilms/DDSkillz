@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gr05.swe1.hm.edu.ddskillz.activities.quiz.SliderFragment"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?android:colorAccent"
+            android:textSize="128dp"
+            android:id="@+id/slider_value"
+            android:layout_gravity="center" />
+
+        <SeekBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/slider" />
+    </LinearLayout>
+</RelativeLayout>

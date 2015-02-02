@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    card_view:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/skillImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="?android:colorPrimary"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tileTitle"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="?android:colorPrimaryDark"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:padding="2dp"
+                android:singleLine="true"
+                android:text="hello"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f1f1f1"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/level"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="4dp"
+            android:background="#ffffff"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:text="23"
+            android:textColor="#1f1f1f"
+            />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="4dp"
+            android:background="#b33f3f3f"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:src="@drawable/ic_action_stars" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

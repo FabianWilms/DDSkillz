@@ -1,0 +1,44 @@
+{
+    "multiplequestions": [
+        {
+            "text": "Was sind Phasen des Standard-Lebenszyklus?",
+            "correctAnswers": [
+                "archetype",
+                "install",
+                "test"
+            ],
+            "falseAnswers": [
+                "uninstall",
+                "die"
+            ]
+        }
+    ],
+    "singlequestions": [
+        {
+            "text": "Welche Firma steckt hinter Maven?",
+            "correctAnswer": "Apache",
+            "falseAnswers": [
+                "Tomahawk",
+                "NSA",
+                "NASA"
+            ]
+        },
+		{
+            "text": "Was ist der Grundgedanke von Maven?",
+            "correctAnswer": "Konvention vor Konfiguration",
+            "falseAnswers": [
+                "Kommunikation vor Kapitulation",
+                "Kapitulation vor Konfiguration",
+                "Konvention vor die Hunde"
+            ]
+        }
+    ],
+    "yesnoquestions": [
+        {
+            "text": "Lesen Sie die Fragen überhaupt noch? Dann drücken Sie <Nein>",
+            "correctValue": false
+        }
+    ],
+    "valuequestions": [],
+    "valuerangequestions": []
+}

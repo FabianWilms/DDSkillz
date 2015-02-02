@@ -1,0 +1,46 @@
+{
+    "multiplequestions": [
+        {
+            "text": "Welche dieser Tags sind gültig?",
+            "correctAnswers": [
+                "a",
+                "div",
+                "h"
+            ],
+            "falseAnswers": [
+                "b",
+                "x",
+                "href"
+            ]
+        }
+    ],
+    "singlequestions": [
+        {
+            "text": "Wie ist die Endung einer HTML-Datei",
+            "correctAnswer": ".html",
+            "falseAnswers": [
+                ".exe",
+                ".web",
+                ".internet"
+            ]
+        }
+    ],
+    "yesnoquestions": [
+        {
+            "text": "Kann man in HTML scripten?",
+            "correctValue": true
+        },
+        {
+            "text": "Kann man mit HTML Kaffee kochen?",
+            "correctValue": false
+        }
+    ],
+    "valuequestions": [
+        {
+            "text": "Was ist die aktuellste HTML-Version?",
+            "lowerBound": 0,
+            "upperBound": 10,
+            "correctValue": 5
+        }
+    ]
+}

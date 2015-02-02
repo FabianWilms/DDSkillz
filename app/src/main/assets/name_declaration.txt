@@ -1,0 +1,15 @@
+<skillname>_<questiontype>.json
+
+<skillname>     represents the corresponding skill to be tested.
+<questiontype>  is the type of questions that is stored in this file.
+
+Every Skill can have multiple files, depending on how many different types of quesitons he uses.
+
+Available questiontypes:
+<multiple>      A question with multiple correct answers.
+<single>        A question with a single correct answer.
+<yesorno>       Choice between Yes or No.
+<value>         A question with a slider to choose the value.
+<valuerange>    A question with a slider accepting a range of answers.
+
+Please refer to the dummy-files for further information.

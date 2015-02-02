@@ -1,0 +1,134 @@
+{
+    "multiplequestions": [
+        {
+            "text": "Welche dieser Tags sind gültig?",
+            "correctAnswers": [
+                "a",
+                "div",
+                "h"
+            ],
+            "falseAnswers": [
+                "href"
+            ]
+        },
+        {
+            "text": "Welche Elemente können im HTML-Kopf verwendet werden?",
+            "correctAnswers": [
+                "meta",
+                "style"
+            ],
+            "falseAnswers": [
+                "end",
+                "new",
+                "body"
+            ]
+        },
+        {
+            "text": "Wobei handelt es sich um HTML-Versionen?",
+            "correctAnswers": [
+                "HTML 5",
+                "XHTML 1.0"
+            ],
+            "falseAnswers": [
+                "HTML -",
+                "HTML 3.2.7",
+                "XHTML 5.0"
+            ]
+        }
+    ],
+    "singlequestions": [
+        {
+            "text": "Wie ist die Endung einer HTML-Datei?",
+            "correctAnswer": ".html",
+            "falseAnswers": [
+                ".exe",
+                ".web",
+                ".internet"
+            ]
+        },
+        {
+            "text": "Wofür steht HTML?",
+            "correctAnswer": "Hyper Text Markup Language",
+            "falseAnswers": [
+                "Home Tool Markup Language",
+                "Hyperlinks and Text Markup Language",
+                "Help Tobacco Murder Lives"
+            ]
+        },
+        {
+            "text": "Wer legt die Webstandards fest?",
+            "correctAnswer": "World Wide Web Consortium",
+            "falseAnswers": [
+                "Google",
+                "Mozilla",
+                "Microsoft",
+                "NSA",
+                "DIN"
+            ]
+        },
+        {
+            "text": "Was ist der HTML-Tag für einen Zeilenumbruch?",
+            "correctAnswer": "<br>",
+            "falseAnswers": [
+                "<break>",
+                "<new line>",
+                "<down>",
+                "<next line>"
+            ]
+        },
+        {
+            "text": "Was ist der HTML-Tag um einen Text fett zu machen?",
+            "correctAnswer": "<b>",
+            "falseAnswers": [
+                "<bold>",
+                "<fat>",
+                "<f>",
+                "<big>"
+            ]
+        },
+        {
+            "text": "Was ist der HTML-Tag um einen Text kursiv zu machen?",
+            "correctAnswer": "<i>",
+            "falseAnswers": [
+                "<italic>",
+                "<kursiv>",
+                "<k>",
+                "<cursiv>",
+                "<c>"
+            ]
+        },
+        {
+            "text": "Wie sehen HTML Tags aus??",
+            "correctAnswer": "<>",
+            "falseAnswers": [
+                "()",
+                "{}",
+                "[]",
+                "(°_°)"
+            ]
+        }
+    ],
+    "yesnoquestions": [
+        {
+            "text": "Kann man in HTML scripten?",
+            "correctValue": false
+        },
+        {
+            "text": "Kann man mit HTML Kaffee kochen?",
+            "correctValue": false
+        },
+         {
+             "text": "Werden inline Elemente normalerweise in mehreren Zeilen anezeigt?",
+             "correctValue": false
+         }
+    ],
+    "valuequestions": [
+        {
+            "text": "Was ist die aktuellste HTML-Version?",
+            "lowerBound": 0,
+            "upperBound": 10,
+            "correctValue": 5
+        }
+    ],
+    "valuerangequestions": []
+}

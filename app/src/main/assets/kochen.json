@@ -1,0 +1,57 @@
+{
+    "multiplequestions": [],
+    "singlequestions": [
+        {
+            "text": "Was ist 'Rigatoni'",
+            "correctAnswer": "Nudeln",
+            "falseAnswers": [
+                "Fleisch",
+                "Kräuter",
+                "Pizzasorte"
+            ]
+        },
+        {
+            "text": "Was ist kein Gemüse?",
+            "correctAnswer": "Tortellini",
+            "falseAnswers": [
+                "Tomate",
+                "Bohne",
+                "Rettich"
+            ]
+        },
+        {
+            "text": "Wie werden Fischeier auch genannt?",
+            "correctAnswer": "Kaviar",
+            "falseAnswers": [
+                "Kabeljau",
+                "Kabelsalat",
+                "Perle"
+            ]
+        },
+        {
+            "text": "Wie wird eine Pizza zubereitet?",
+            "correctAnswer": "Gebacken",
+            "falseAnswers": [
+                "Gekocht",
+                "Gedünstet",
+                "Gebraten"
+            ]
+        }
+    ],
+    "yesnoquestions": [
+        {
+            "text": "Ist eine Kartoffel ein Gemüse?",
+            "correctValue": true
+        }
+    ],
+    "valuequestions": [],
+    "valuerangequestions": [
+        {
+            "text": "Wie viele Minuten dauert ein hart gekochtes Ei?",
+            "lowerBound": 0,
+            "upperBound": 60,
+            "answerLowerBound": 7,
+            "answerUpperBound": 12
+        }
+    ]
+}

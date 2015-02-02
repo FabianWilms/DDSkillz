@@ -1,0 +1,61 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="gr05.swe1.hm.edu.ddskillz.activities.QuizActivity"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
+
+    android:id="@+id/quizLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/question_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:colorPrimary"
+        android:elevation="8dp"
+        android:minHeight="148dp">
+
+        <TextView
+            android:id="@+id/quiz_question"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="32dp"
+            android:text="Wie gut schätzen sie sich selbst ein?"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </FrameLayout>
+
+
+</LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/accept_fab_frame"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:visibility="visible"
+        android:layout_marginTop="104dp"
+        android:layout_alignParentRight="true">
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/accept_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_action_done"
+            android:visibility="invisible"
+            fab:fab_colorNormal="#f1f1f1" />
+    </FrameLayout>
+
+</RelativeLayout>
